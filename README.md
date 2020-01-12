@@ -110,3 +110,5 @@ Os nomes dos ficheiros de layouts devem corresponder ao nome dos componentes And
 Um caso ligeiramente diferente é quando criamos um layout para ser injectado num Adapter, por exemplo para popular uma RecyclerView. Neste caso o nome do layout deve iniciar com item_.
 
 Note-se ainda que há casos em que as regras acima não se aplicam. Por exemplo, quando criamos layouts que tem o intuito de ser incluídos noutros layouts. Neste caso usa-se o prefixo partial_.
+
+Tabela - Nomenclatura de Layouts
