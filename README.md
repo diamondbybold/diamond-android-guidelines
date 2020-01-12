@@ -62,3 +62,43 @@ Os nomes dos ficheiros de recursos devem se escrever em minúsculas e com unders
 ### Drawables
 
 No caso dos drawables existem três convenções a seguir:
+
+**Convenção de nomenclatura geral**
+
+Tabela - Nomenclatura de drawables
+
+| Tipo de Asset      | Prefixo       | Exemplo                  |
+| :----------------- | ------------- | ------------------------ |
+| Action bar/Toolbar | ab_/tb_       | ab_stacked.9.png         |
+| Button             | btn_          | btn_send_pressed.9.png   |
+| Dialog             | dialog_       | dialog_top.9.png         |
+| Divider            | divider_      | divider_horizontal.9.png |
+| Icon               | ic_           | ic_star.png              |
+| Menu               | menu_         | menu_submenu_bg.9.png    |
+| Notification       | notification_ | notification_bg.9.png    |
+| Tabs               | tab_          | tab_pressed.9.png        |
+
+**Convenção de nomenclatura de icons**
+
+Tabela - Nomenclatura de Icons
+
+| Tipo de Asset            | Prefixo         | Exemplo                  |
+| :----------------------- | --------------- | ------------------------ |
+| Icons                    | ic_             | ic_star.png              |
+| Icons do Launcher        | ic_launcher_    | ic_launcher_calendar.png |
+| Icons de menu ou Toolbar | ic_menu_        | ic_menu_archive.png      |
+| Icon barra de Status     | ic_stat_notify_ | ic_stat_notify_msg.png   |
+| Icons de Tabs            | ic_tab_         | ic_tab_recent.png        |
+| Icons de Dialogs         | ic_dialog_      | ic_dialog_info.png       |
+
+**Convenção de nomenclatura de selectors**
+
+Tabela - Nomenclatura de selectors
+
+| Estado   | Sufixo    | Exemplo                  |
+| :------- | --------- | ------------------------ |
+| Normal   | _normal   | btn_order_normal.9.png   |
+| Pressed  | _pressed  | btn_order_pressed.9.png  |
+| Focused  | _focused  | btn_order_focused.9.png  |
+| Disabled | _disabled | btn_order_disabled.9.png |
+| Selected | _selected | btn_order_selected.9.png |
