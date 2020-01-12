@@ -112,3 +112,11 @@ Um caso ligeiramente diferente é quando criamos um layout para ser injectado nu
 Note-se ainda que há casos em que as regras acima não se aplicam. Por exemplo, quando criamos layouts que tem o intuito de ser incluídos noutros layouts. Neste caso usa-se o prefixo partial_.
 
 Tabela - Nomenclatura de Layouts
+
+| Componente       | Classe               | Exemplo                    |
+| :--------------- | -------------------- | -------------------------- |
+| Activity         | UserProfileActivity  | activity_user_profile.xml  |
+| Fragment         | SignUpFragment       | fragment_sign_up.xml       |
+| Dialog           | ChangePasswordDialog | dialog_change_password.xml |
+| AdapterView item | \---                 | item_person.xml            |
+| Layout parcial   | \---                 | partial_stats_bar.xml      |
