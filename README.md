@@ -102,3 +102,11 @@ Tabela - Nomenclatura de selectors
 | Focused  | _focused  | btn_order_focused.9.png  |
 | Disabled | _disabled | btn_order_disabled.9.png |
 | Selected | _selected | btn_order_selected.9.png |
+
+### Layouts
+
+Os nomes dos ficheiros de layouts devem corresponder ao nome dos componentes Android que pretendem representar, mas movendo o componente mais alto para o principio. Por exemplo, se estivermos a criar um Layout para a actividade SignInActivity, o nome do ficheiro de layout deve ser activity_sign_in.xml.
+
+Um caso ligeiramente diferente é quando criamos um layout para ser injectado num Adapter, por exemplo para popular uma RecyclerView. Neste caso o nome do layout deve iniciar com item_.
+
+Note-se ainda que há casos em que as regras acima não se aplicam. Por exemplo, quando criamos layouts que tem o intuito de ser incluídos noutros layouts. Neste caso usa-se o prefixo partial_.
