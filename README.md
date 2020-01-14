@@ -120,7 +120,3 @@ Tabela - Nomenclatura de Layouts
 | Dialog           | ChangePasswordDialog | dialog_change_password.xml |
 | AdapterView item | \---                 | item_person.xml            |
 | Layout parcial   | \---                 | partial_stats_bar.xml      |
-
-test
-
-cs
