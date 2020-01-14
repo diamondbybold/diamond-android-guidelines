@@ -121,4 +121,4 @@ Tabela - Nomenclatura de Layouts
 | AdapterView item | \---                 | item_person.xml            |
 | Layout parcial   | \---                 | partial_stats_bar.xml      |
 
-test
+test2
